@@ -1,0 +1,72 @@
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  background-color: rgb(241, 248, 238);
+  width: 600px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(44, 48, 50, 0.277);
+}
+
+/* Outside border register*/
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+/* Outside border login*/
+.signupLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+/* Full-width inputs */
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#botonForm {
+  background-color: #04aa5d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+#botonForm:hover {
+  opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 80%;
+  /*border-radius: 50%;*/
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
